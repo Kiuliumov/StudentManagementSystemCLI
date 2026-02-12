@@ -24,8 +24,7 @@ int main()
             view_students();
             break;
         case 3:
-            search_student();
-            break;
+            find_student_by_id();
         case 4:
             return 0;
         default:
