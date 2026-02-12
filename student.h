@@ -7,11 +7,13 @@ typedef struct
 {
     int id;
     char name[MAX_NAME];
+    int age;
     float grade;
 } Student;
 
-void add_student(Student *student_list, int *count, int id, const char *name, float grade);
-void view_student(const Student *student);
-void find_student_by_id(const Student *student_list, int count, int id);
-void delete_student_by_id(Student *student_list, int *count, int id);
+int generate_id();
+void add_student();
+void view_student();
+void find_student_by_id();
+void delete_student_by_id();
 #endif
