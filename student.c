@@ -43,7 +43,7 @@ void add_student()
     save_student(s);
 }
 
-void view_student()
+void view_students()
 {
     FILE *file = fopen("students.dat", "rb");
     Student s;
