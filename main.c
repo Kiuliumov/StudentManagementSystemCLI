@@ -13,7 +13,6 @@ typedef struct
 int generate_id();
 void add_student();
 void view_students();
-void find_student_by_id();
 void delete_student_by_id();
 void delete_student_from_file(int id);
 
